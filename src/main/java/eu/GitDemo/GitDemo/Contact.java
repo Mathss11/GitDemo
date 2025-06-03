@@ -59,4 +59,11 @@ public class Contact {
                 ", adresseMail='" + adresseMail + '\'' +
                 '}';
     }
+
+    public presentation() {
+        String s = "Je suis " + this.prenom + " " + this.nom + ", " +
+                "Vous pouvez me contacter au " + this.numeroTelephone + " ou " +
+                "via mon email " + this.adresseMail + "."
+    }
+
 }
