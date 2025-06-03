@@ -4,6 +4,6 @@ public class Contact {
 
     private String nom;
     private String  prenom;
-    private String numeroTelephone;
+    private int numeroTelephone;
     private String adresseMail;
 }
