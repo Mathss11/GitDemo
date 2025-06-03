@@ -7,6 +7,8 @@ public class Contact {
     private String numeroTelephone;
     private String adresseMail;
 
+    public Contact() {
+    }
 
     public Contact(String nom, String prenom, String numeroTelephone, String adresseMail) {
         this.nom = nom;
@@ -46,5 +48,15 @@ public class Contact {
 
     public void setNom(String nom) {
         this.nom = nom;
+    }
+
+    @Override
+    public String toString() {
+        return "Contact{" +
+                "nom='" + nom + '\'' +
+                ", prenom='" + prenom + '\'' +
+                ", numeroTelephone='" + numeroTelephone + '\'' +
+                ", adresseMail='" + adresseMail + '\'' +
+                '}';
     }
 }
