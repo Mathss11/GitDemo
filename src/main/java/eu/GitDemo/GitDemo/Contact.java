@@ -62,7 +62,7 @@ public class Contact {
 
     public String presentation() {
         String s = "Je suis " + this.prenom + " " + this.nom + ", " +
-                "Vous pouvez me contacter au " + this.numeroTelephone + " ou  " +
+                "Vous pouvez me contacter au " + this.numeroTelephone + " ou " +
                 "via mon email " + this.adresseMail + ".";
         return s;
     }
